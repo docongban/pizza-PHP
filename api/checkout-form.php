@@ -7,7 +7,7 @@ if(!empty($_POST)) {
 	}
 	if($cart ==null || count($cart) == 0) {
 		header('Location: index.php?id=1');
-		die();
+		exit();
 	}
 
 	$fullname = getPost('fullname');
@@ -49,6 +49,7 @@ if(!empty($_POST)) {
 		$sql = "insert into order_details(order_id, product_id, num, price) values ($orderId, ".$item['id'].", $num, ".$item['price'].")";
 		execute($sql);
 	}
-	
+	// header('Location: complete.php');
+	// setcookie('cart', '[]', time()-1000, '/');
 }
 ?>

@@ -26,6 +26,9 @@
         <li class="nav-item">
             <a class="nav-link" href="../product">Quản Lý Sản Phẩm</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../bill">Quản Lý Hóa Đơn</a>
+        </li>
     </ul>
 
 	<div class="container">

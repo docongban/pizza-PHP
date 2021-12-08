@@ -1,3 +1,3 @@
 <?php
-    header('Location: category');
+    header('Location: bill');
 ?>

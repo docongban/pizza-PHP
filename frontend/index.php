@@ -58,7 +58,7 @@
                 </div>
                 <!-- End product -->
 
-            </div>
+            </div> 
         </div>
         <!-- End container -->
         <script type="text/javascript">
