@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quản Lý Hóa Đơn</title>
+	<title>Thông tin Hóa Đơn</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -28,14 +28,14 @@
             <a class="nav-link" href="../product">Quản Lý Sản Phẩm</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link active" href="#">Quản Lý Hóa Đơn</a>
+            <a class="nav-link active" href="#">Thông tin Hóa Đơn</a>
         </li>
     </ul>
 
 	<div class="container">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<h2 class="text-center">Quản Lý Hóa Đơn</h2>
+				<h2 class="text-center">Thông tin Hóa Đơn</h2>
 			</div>
 			<div class="panel-body">
                 <table class="table table-bordered table-hover">

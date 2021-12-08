@@ -27,7 +27,7 @@
             <a class="nav-link" href="../product">Quản Lý Sản Phẩm</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../bill">Quản Lý Hóa Đơn</a>
+            <a class="nav-link" href="../bill">Thông tin Hóa Đơn</a>
         </li>
     </ul>
 
@@ -57,14 +57,14 @@
                             $index=1;
                             foreach ($categoryList as $item) {
                                 echo '<tr>
-                                        <td>'.($index++).'</td>
+                                        <td style="width:50px">'.($index++).'</td>
                                         <td>'.$item['name'].'</td>
-                                        <td>
+                                        <td style="width:100px">
                                             <a href="add.php?id='.$item['id'].'">
                                                 <button class="btn btn-warning">Sửa</button>
                                             </a>
                                         </td>
-                                        <td>
+                                        <td style="width:100px">
                                             <button class="btn btn-danger" onclick="deleteCategory('.$item['id'].')">Xóa</button>
                                         </td>
                                     </tr>';

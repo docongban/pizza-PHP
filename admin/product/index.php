@@ -27,7 +27,7 @@
             <a class="nav-link active" href="#">Quản Lý Sản Phẩm</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="../bill">Quản Lý Hóa Đơn</a>
+            <a class="nav-link" href="../bill">Thông tin Hóa Đơn</a>
         </li>
     </ul>
 

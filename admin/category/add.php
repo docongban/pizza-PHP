@@ -49,11 +49,14 @@
 </head>
 <body>
     <ul class="nav nav-tabs">
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link active" href="index.php">Quản Lý Danh Mục</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="../product">Quản Lý Sản Phẩm</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../bill">Thông tin Hóa Đơn</a>
         </li>
     </ul>
 

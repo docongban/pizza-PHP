@@ -1,7 +1,7 @@
 <?php
 	require_once('../db/dbhelper.php');
 	require_once('../utils/utility.php');
-	include_once('layouts/header.php');
+	include_once('layouts/headerNoSlider.php');
 
 	require_once('../api/checkout-form.php');
 
@@ -43,7 +43,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone_number" class="ship-title">Số điện thoại:</label>
-                                <input type="text" class="ship-input" id="phone_number" name="phone_number">
+                                <input type="number" class="ship-input" id="phone_number" name="phone_number">
                             </div>
                             <div class="form-group">
                                 <label for="address" class="ship-title">Địa chỉ:</label>

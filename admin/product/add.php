@@ -71,8 +71,11 @@
         <li class="nav-item">
             <a class="nav-link" href="../category">Quản Lý Danh Mục</a>
         </li>
+        <li class="nav-item active">
+            <a class="nav-link active" href="index.php">Quản Lý Sản Phẩm</a>
+        </li>
         <li class="nav-item">
-            <a class="nav-link" href="index.php">Quản Lý Sản Phẩm</a>
+            <a class="nav-link" href="../bill">Thông tin Hóa Đơn</a>
         </li>
     </ul>
 
