@@ -1,9 +1,9 @@
 <?php
 	require_once('../db/dbhelper.php');
 	require_once('../utils/utility.php');
+	require_once('../api/checkout-form.php');
 	include_once('layouts/headerNoSlider.php');
 
-	require_once('../api/checkout-form.php');
 
 	$cart = [];
 	if(isset($_COOKIE['cart'])) {

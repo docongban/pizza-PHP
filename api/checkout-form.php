@@ -49,7 +49,7 @@ if(!empty($_POST)) {
 		$sql = "insert into order_details(order_id, product_id, num, price) values ($orderId, ".$item['id'].", $num, ".$item['price'].")";
 		execute($sql);
 	}
-	// header('Location: complete.php');
-	// setcookie('cart', '[]', time()-1000, '/');
+	header('Location: complete.php');
+	setcookie('cart', '[]', time()-1000, '/');
 }
 ?>
